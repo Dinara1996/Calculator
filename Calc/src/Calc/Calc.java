@@ -99,7 +99,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB3.setBounds(179, 65, 56, 37);
 		frame.getContentPane().add(jB3);
 		
-		JButton jB4 = new JButton("4");/* Äîáàâëåíèå êíîïêè ÷åòûðå */
+		JButton jB4 = new JButton("4"); /*Добавление кнопки четыре*/
 		jB4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB4.getText();
@@ -111,7 +111,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB4.setBounds(35, 113, 56, 37);
 		frame.getContentPane().add(jB4);
 		
-		JButton jB5 = new JButton("5");/* Äîáàâëåíèå êíîïêè ïÿòü */
+		JButton jB5 = new JButton("5"); /*Добавление кнопки пять*/
 		jB5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB5.getText();
@@ -123,7 +123,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB5.setBounds(105, 113, 56, 37);
 		frame.getContentPane().add(jB5);
 		
-		JButton jB6 = new JButton("6"); /* Äîáàâëåíèå êíîïêè øåñòü */
+		JButton jB6 = new JButton("6"); /*Добавление кнопки шесть*/
 		jB6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB6.getText();
@@ -135,7 +135,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB6.setBounds(179, 113, 56, 37);
 		frame.getContentPane().add(jB6);
 		
-		JButton jB7 = new JButton("7");/* Äîáàâëåíèå êíîïêè ñåìü */
+		JButton jB7 = new JButton("7"); /*Добавление кнопки семь*/
 		jB7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB7.getText();
@@ -147,7 +147,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB7.setBounds(35, 161, 56, 37);
 		frame.getContentPane().add(jB7);
 		
-		JButton jB8 = new JButton("8"); /* Äîáàâëåíèå êíîïêè âîñåìü */
+		JButton jB8 = new JButton("8"); /*Добавление кнопки восемь*/
 		jB8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB8.getText();
@@ -159,7 +159,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB8.setBounds(105, 161, 56, 37);
 		frame.getContentPane().add(jB8);
 		
-		JButton jB9 = new JButton("9"); /* Äîáàâëåíèå êíîïêè äåâÿòü */
+		JButton jB9 = new JButton("9"); /*Добавление кнопки девять*/
 		jB9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB9.getText();
@@ -171,7 +171,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB9.setBounds(179, 161, 56, 37);
 		frame.getContentPane().add(jB9);
 		
-		JButton jBplusminus = new JButton("+/-"); /* Äîáàâëåíèå êíîïêè "ïëþñ/ìèíóñ" */
+		JButton jBplusminus = new JButton("+/-"); /*Добавление кнопок +/-*/
 		jBplusminus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				double plusminus = Double.parseDouble(String.valueOf(jDisplay.getText()));
@@ -184,7 +184,7 @@ public class Calc {/*означает что класс доступен дру�
 		jBplusminus.setBounds(35, 209, 56, 37);
 		frame.getContentPane().add(jBplusminus);
 		
-		JButton jB10 = new JButton("0"); /* Äîáàâëåíèå êíîïêè íîëü */
+		JButton jB10 = new JButton("0"); /*Добавление кнопки ноль*/
 		jB10.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB10.getText();
@@ -196,7 +196,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB10.setBounds(105, 209, 56, 37);
 		frame.getContentPane().add(jB10);
 		
-		JButton jBdot = new JButton("."); /* Äîáàâëåíèå êíîïêè  âåùåñòâåííûõ ÷èñåë */
+		JButton jBdot = new JButton("."); /*Добавление кнопки точки*/
 		jBdot.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jBdot.getText();
@@ -208,7 +208,7 @@ public class Calc {/*означает что класс доступен дру�
 		jBdot.setBounds(179, 209, 56, 37);
 		frame.getContentPane().add(jBdot);
 		
-		JButton jBplus = new JButton("+"); /* Äîáàâëåíèå êíîïêè ñëîæåíèÿ */
+		JButton jBplus = new JButton("+"); /*Добавление кнопки суммирования*/
 		jBplus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -221,7 +221,7 @@ public class Calc {/*означает что класс доступен дру�
 		jBplus.setBounds(289, 113, 56, 37);
 		frame.getContentPane().add(jBplus);
 		
-		JButton jBminus = new JButton("-");/* Äîáàâëåíèå êíîïêè âû÷èòàíèÿ */
+		JButton jBminus = new JButton("-"); /*Добавление кнопки вычитания*/
 		jBminus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -234,7 +234,7 @@ public class Calc {/*означает что класс доступен дру�
 		jBminus.setBounds(289, 161, 56, 37);
 		frame.getContentPane().add(jBminus);
 		
-		JButton jBmultiply = new JButton("*"); /* Äîáàâëåíèå êíîïêè óìíîæåíèÿ */
+		JButton jBmultiply = new JButton("*"); /*Добавление кнопки умножения*/
 		jBmultiply.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -247,7 +247,7 @@ public class Calc {/*означает что класс доступен дру�
 		jBmultiply.setBounds(289, 208, 56, 37);
 		frame.getContentPane().add(jBmultiply);
 		
-		JButton jBdivided = new JButton("/"); /* Äîáàâëåíèå êíîïêè äåëåíèÿ */
+		JButton jBdivided = new JButton("/"); /*Добавление кнопки деления*/
 		jBdivided.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num1 = Double.parseDouble(jDisplay.getText());
@@ -260,7 +260,7 @@ public class Calc {/*означает что класс доступен дру�
 		jBdivided.setBounds(289, 258, 56, 37);
 		frame.getContentPane().add(jBdivided);
 		
-		JButton jDclear = new JButton("C"); /* Äîáàâëåíèå êíîïêè óäàëåíèÿ */
+		JButton jDclear = new JButton("C"); /*Добавление кнопки удаления*/
 		jDclear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				jDisplay.setText("");
@@ -271,7 +271,7 @@ public class Calc {/*означает что класс доступен дру�
 		jDclear.setBounds(289, 65, 56, 37);
 		frame.getContentPane().add(jDclear);
 		
-		JButton jBequally = new JButton("="); /* Äîáàâëåíèå êíîïêè ðàâåíñòâà */
+		JButton jBequally = new JButton("="); /*Добавление кнопки =*/
 		jBequally.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				num2 = Double.parseDouble(jDisplay.getText());
@@ -281,25 +281,25 @@ public class Calc {/*означает что класс доступен дру�
 					result = num1+num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Âûïîëíÿåò îïåðàöèþ ñëîæåíèÿ */
+				} /*Выведение результата сложения*/
 				else if ( operation == "-")
 				{
 					result = num1-num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Âûïîëíÿåò îïåðàöèþ âû÷èòàíèÿ */
+				} /*Выведение результата разности*/
 				else if ( operation == "*")
 				{
 					result = num1*num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Âûïîëíÿåò îïåðàöèþ óìíîæåíèÿ */
+				} /*Выведение результата произведения*/
 				else if ( operation == "/")
 				{
 					result = num1/num2;
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
-				} /* Âûïîëíÿåò îïåðàöèþ äåëåíèÿ */
+				} /*Выведение результата деления*/
 			}
 		});
 		jBequally.setForeground(new Color(255, 0, 0));
