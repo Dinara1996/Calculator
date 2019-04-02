@@ -63,19 +63,19 @@ public class Calc {/*означает что класс доступен дру�
 		frame.getContentPane().add(jDisplay);
 		jDisplay.setColumns(10);
 		
-		JButton jB1 = new JButton("1"); /* Äîáàâëåíèå êíîïêè îäèí*/
+		JButton jB1 = new JButton("1"); /*Добавление кнопки один*/
 		jB1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String unputnum = jDisplay.getText()+ jB1.getText();
 				jDisplay.setText(unputnum);
 			}
 		});
-		jB1.setForeground(Color.RED);
-		jB1.setFont(new Font("Tahoma", Font.BOLD, 14));
+		jB1.setForeground(Color.RED); /*Задаются парметры кнопки*/
+		jB1.setFont(new Font("Tahoma", Font.BOLD, 14)); /*Задаются параметры текста*/
 		jB1.setBounds(35, 65, 56, 37);
 		frame.getContentPane().add(jB1);
 		
-		JButton jB2 = new JButton("2"); /* Äîáàâëåíèå êíîïêè äâà*/
+		JButton jB2 = new JButton("2"); /*Добавление кнопки два*/
 		jB2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+ jB2.getText();
@@ -87,7 +87,7 @@ public class Calc {/*означает что класс доступен дру�
 		jB2.setBounds(105, 65, 56, 37);
 		frame.getContentPane().add(jB2);
 		
-		JButton jB3 = new JButton("3");/* Äîáàâëåíèå êíîïêè òðè */
+		JButton jB3 = new JButton("3"); /*Добавление кнопки три*/
 		jB3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String unputnum = jDisplay.getText()+jB3.getText();
