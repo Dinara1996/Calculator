@@ -18,14 +18,14 @@ public class Calc {/*означает что класс доступен дру�
 	double result; /*переменная типа doublе, с плавающей точкой*/
 	String operation;
 
-	private JFrame frame;
-	private JTextField jDisplay;
-	public static void main(String[] args) {
+	private JFrame frame;/*закрытый класс окна jframe*/
+	private JTextField jDisplay;/*текстовое поле для ввода*/
+	public static void main(String[] args) {/*эта функция может быть и в другом классе*/
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Calc window = new Calc();
-					window.frame.setVisible(true);
+					Calc window = new Calc();/*Создаем экземпляр нашего приложения*/
+					window.frame.setVisible(true);/*C этого момента приложение запущено*/
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
