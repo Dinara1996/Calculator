@@ -43,9 +43,9 @@ public class Calc {/*означает что класс доступен дру�
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void initialize() {
-		frame = new JFrame();
-		frame.setBackground(new Color(135, 206, 235));
+	private void initialize() {/*здесь создаются все элементы программы*/
+		frame = new JFrame();/*создание нового окна*/
+		frame.setBackground(new Color(135, 206, 235));/*установка цвета фона*/
 		frame.getContentPane().setBackground(new Color(135, 206, 250));
 		frame.setForeground(new Color(0, 0, 0));
 		frame.getContentPane().setForeground(new Color(0, 191, 255));
@@ -58,8 +58,8 @@ public class Calc {/*означает что класс доступен дру�
 		jDisplay.setForeground(new Color(255, 0, 0));
 		jDisplay.setHorizontalAlignment(SwingConstants.RIGHT);
 		jDisplay.setEditable(false);
-		jDisplay.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		jDisplay.setBounds(35, 11, 310, 43);
+		jDisplay.setFont(new Font("Tahoma", Font.PLAIN, 14));/*установка параметров шрифта*/
+		jDisplay.setBounds(35, 11, 310, 43);/*задаются параметры окна*/
 		frame.getContentPane().add(jDisplay);
 		jDisplay.setColumns(10);
 		
