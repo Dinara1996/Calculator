@@ -230,8 +230,8 @@ public class Calc {/*означает что класс доступен дру�
 			}
 		});
 		jBminus.setForeground(Color.RED);
-		jBminus.setFont(new Font("Tahoma", Font.BOLD, 14));
-		jBminus.setBounds(289, 161, 56, 37);
+		jBminus.setFont(new Font("Tahoma", Font.BOLD, 14)); /*Задание параметров шрифта*/
+		jBminus.setBounds(289, 161, 56, 37); /*Задание параметров размера кнопки*/
 		frame.getContentPane().add(jBminus);
 		
 		JButton jBmultiply = new JButton("*"); /*Добавление кнопки умножения*/
@@ -284,7 +284,7 @@ public class Calc {/*означает что класс доступен дру�
 				} /*Выведение результата сложения*/
 				else if ( operation == "-")
 				{
-					result = num1-num2;
+					result = num1-num2; /*подсчет результата вычитания двух чисел*/
 					total=String.format("%.4f", result);
 					jDisplay.setText(total);
 				} /*Выведение результата разности*/
