@@ -54,7 +54,7 @@ public class Calc {/*означает что класс доступен дру�
 		frame.getContentPane().setLayout(null);
 		
 		jDisplay = new JTextField();
-		jDisplay.setBackground(new Color(224, 255, 255));
+		jDisplay.setBackground(new Color(224, 255, 255)); /*установка цвета фона*/
 		jDisplay.setForeground(new Color(255, 0, 0));
 		jDisplay.setHorizontalAlignment(SwingConstants.RIGHT);
 		jDisplay.setEditable(false);
@@ -70,7 +70,7 @@ public class Calc {/*означает что класс доступен дру�
 				jDisplay.setText(unputnum);
 			}
 		});
-		jB1.setForeground(Color.RED); /*Задаются парметры кнопки*/
+		jB1.setForeground(Color.RED); /*Задаются параметры кнопки*/
 		jB1.setFont(new Font("Tahoma", Font.BOLD, 14)); /*Задаются параметры текста*/
 		jB1.setBounds(35, 65, 56, 37);
 		frame.getContentPane().add(jB1);
